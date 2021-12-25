@@ -38,6 +38,12 @@ pkg_add automake # (select highest version, e.g. 1.15)
 pkg_add python # (select highest version, e.g. 3.5)
 ```
 
+
+##### AARCH64 - Ubuntu for rpi4:
+```bash
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu
+```
+
 Building
 --------
 
